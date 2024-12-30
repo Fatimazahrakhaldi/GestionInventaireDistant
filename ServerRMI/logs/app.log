@@ -1,0 +1,101 @@
+2024-12-28 14:35:43,165 [main] INFO : RMI Server started successfully!
+2024-12-28 14:39:25,151 [main] INFO : RMI Server started successfully!
+2024-12-28 14:40:47,859 [RMI TCP Connection(6)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-28 14:42:56,624 [RMI TCP Connection(7)-192.168.56.1] INFO : Le produit a été supprimé avec succès !
+2024-12-28 14:43:15,975 [RMI TCP Connection(7)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-28 14:52:17,242 [main] INFO : RMI Server started successfully!
+2024-12-28 14:53:19,668 [RMI TCP Connection(5)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-28 14:59:57,862 [main] INFO : RMI Server started successfully!
+2024-12-28 15:00:40,580 [RMI TCP Connection(4)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-28 15:00:51,660 [RMI TCP Connection(4)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-28 15:00:57,509 [RMI TCP Connection(4)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-28 15:04:50,783 [main] INFO : RMI Server started successfully!
+2024-12-28 15:05:57,357 [RMI TCP Connection(5)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-28 18:30:56,251 [HikariPool-1 housekeeper] WARN : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h24m5s640ms704µs600ns).
+2024-12-28 18:55:30,351 [HikariPool-1 housekeeper] WARN : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m4s59ms174µs200ns).
+2024-12-28 18:56:38,071 [HikariPool-1 housekeeper] WARN : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s725ms168µs200ns).
+2024-12-29 09:52:09,315 [main] INFO : RMI Server started successfully!
+2024-12-29 09:52:40,894 [RMI TCP Connection(4)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 09:52:54,957 [RMI TCP Connection(4)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 09:55:16,490 [main] INFO : RMI Server started successfully!
+2024-12-29 09:55:30,318 [RMI TCP Connection(4)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 09:56:38,819 [RMI TCP Connection(6)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 09:59:26,918 [RMI TCP Connection(8)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 10:02:31,579 [RMI TCP Connection(11)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 10:03:31,985 [RMI TCP Connection(13)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 10:13:22,162 [RMI TCP Connection(18)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 10:25:46,282 [RMI TCP Connection(25)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 10:25:53,679 [RMI TCP Connection(25)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 10:26:02,547 [RMI TCP Connection(25)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 10:27:34,469 [main] INFO : RMI Server started successfully!
+2024-12-29 10:28:17,796 [RMI TCP Connection(5)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 10:28:52,544 [RMI TCP Connection(6)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 10:30:22,670 [RMI TCP Connection(8)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 10:31:28,215 [RMI TCP Connection(10)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 10:31:59,272 [RMI TCP Connection(12)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 10:32:09,111 [RMI TCP Connection(12)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 10:39:38,304 [RMI TCP Connection(17)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 10:40:44,218 [RMI TCP Connection(19)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 11:32:33,555 [HikariPool-1 housekeeper] WARN : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m59s194ms502µs600ns).
+2024-12-29 13:48:16,328 [HikariPool-1 housekeeper] WARN : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h58m42s742ms899µs100ns).
+2024-12-29 14:32:23,132 [main] INFO : RMI Server started successfully!
+2024-12-29 14:34:31,802 [RMI TCP Connection(5)-192.168.56.1] ERROR: LOGGER ERROR - Method findAll : {}
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30003ms (total=1, active=1, idle=0, waiting=0)
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:686) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:179) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:144) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:99) ~[HikariCP-5.1.0.jar:?]
+	at config.DataSource.getConnection(DataSource.java:28) ~[bin/:?]
+	at dao.ProduitDaoImpl.findAll(ProduitDaoImpl.java:38) ~[bin/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360) ~[?:?]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[?:?]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[?:?]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598) ~[?:?]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844) ~[?:?]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721) ~[?:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-12-29 14:50:48,248 [main] INFO : RMI Server started successfully!
+2024-12-29 14:53:06,728 [RMI TCP Connection(5)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 14:58:42,324 [main] INFO : RMI Server started successfully!
+2024-12-29 16:44:00,801 [main] INFO : RMI Server started successfully!
+2024-12-29 16:48:36,758 [RMI TCP Connection(6)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 16:57:37,066 [main] INFO : RMI Server started successfully!
+2024-12-29 16:58:18,701 [RMI TCP Connection(4)-192.168.56.1] INFO : Le produit a été ajouté avec succès !
+2024-12-29 18:06:24,972 [main] INFO : RMI Server started successfully!
+2024-12-29 18:06:46,459 [RMI TCP Connection(4)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-29 18:07:32,551 [RMI TCP Connection(5)-192.168.56.1] INFO : Le produit a été ajouté avec succès !
+2024-12-29 18:07:47,689 [RMI TCP Connection(5)-192.168.56.1] INFO : Le produit a été supprimé avec succès !
+2024-12-30 09:12:19,013 [main] INFO : RMI Server started successfully!
+2024-12-30 09:13:16,462 [RMI TCP Connection(5)-172.20.32.1] INFO : Le produit a été modifié avec succès !
+2024-12-30 11:34:15,472 [main] INFO : RMI Server started successfully!
+2024-12-30 11:58:02,133 [main] INFO : RMI Server started successfully!
+2024-12-30 12:19:22,754 [RMI TCP Connection(13)-172.20.32.1] INFO : Le produit a été modifié avec succès !
+2024-12-30 13:16:31,974 [main] INFO : Serveur RMI démarré avec succès !
+2024-12-30 13:16:45,599 [RMI TCP Connection(4)-172.20.32.1] INFO : Le produit a été modifié avec succès !
+2024-12-30 13:23:00,980 [main] INFO : Serveur RMI démarré avec succès !
+2024-12-30 13:23:50,375 [RMI TCP Connection(4)-172.20.32.1] INFO : Le produit a été ajouté avec succès !
+2024-12-30 13:24:01,345 [RMI TCP Connection(4)-172.20.32.1] INFO : Le produit a été modifié avec succès !
+2024-12-30 13:24:08,861 [RMI TCP Connection(4)-172.20.32.1] INFO : Le produit a été supprimé avec succès !
+2024-12-30 14:27:06,140 [main] INFO : Serveur RMI démarré avec succès !
+2024-12-30 15:25:39,380 [main] INFO : Serveur RMI démarré avec succès !
+2024-12-30 15:30:19,895 [main] INFO : Serveur RMI démarré avec succès !
+2024-12-30 16:20:32,663 [RMI TCP Connection(14)-172.20.32.1] INFO : Le produit a été modifié avec succès !
+2024-12-30 19:22:00,031 [main] INFO : Serveur RMI démarré avec succès !
+2024-12-30 19:22:21,693 [main] INFO : Serveur RMI démarré avec succès !
+2024-12-30 19:24:38,781 [main] INFO : Serveur RMI démarré avec succès !
+2024-12-30 19:35:57,333 [main] INFO : Serveur RMI démarré avec succès !
+2024-12-30 19:36:10,699 [RMI TCP Connection(4)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-30 19:52:30,292 [main] INFO : Serveur RMI démarré avec succès !
+2024-12-30 19:53:05,985 [main] INFO : Serveur RMI démarré avec succès !
+2024-12-30 19:54:42,780 [RMI TCP Connection(4)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-30 19:54:52,231 [RMI TCP Connection(4)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-30 19:55:00,669 [RMI TCP Connection(4)-192.168.56.1] INFO : Le produit a été modifié avec succès !
+2024-12-30 19:55:06,873 [RMI TCP Connection(4)-192.168.56.1] INFO : Le produit a été modifié avec succès !

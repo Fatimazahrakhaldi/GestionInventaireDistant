@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%-5level %logger{36} (%d{HH:mm:ss.SSS} [%t]) : \n %msg%n \n" />
+		</Console>
+		<File name="FileAppender" fileName="logs/app.log">
+			<PatternLayout pattern="%d [%t] %-5level: %msg%n" />
+		</File>
+		<!-- Appender JDBC pour la base de données -->
+		<JDBC name="databaseAppender" tableName="gestion_inventaire.logs">
+			<ConnectionFactory class="config.DataSource"
+				method="getConnection" />
+
+			<Column name="event_date" isEventTimestamp="true" />
+			<Column name="level" pattern="%level" />
+			<Column name="logger" pattern="%logger" />
+			<Column name="message" pattern="%message" isUnicode="false" />
+			<Column name="exception" pattern="%ex{full}" />
+			<!-- Custom column -->
+			<Column name="action" pattern="%X{action}" />
+			<Column name="produit_id" pattern="%X{produit_id}"/>
+			<Column name="employe_id" pattern="%X{employe_id}"/>
+		</JDBC>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileAppender" />
+			<AppenderRef ref="databaseAppender" />
+		</Root>
+	</Loggers>
+</Configuration>
