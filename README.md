@@ -55,7 +55,7 @@ Vous pouvez utiliser un IDE comme **Eclipse** :
    - Utilisez le fichier **`schema.sql`** pour créer la structure des tables.  
 2. **Insertion de données de test :**  
    - Importez le fichier **`data.sql`** pour insérer des données initiales dans les tables.
-   - 
+   
 ---
 
 ### Configuration du fichier Hikari properties 
