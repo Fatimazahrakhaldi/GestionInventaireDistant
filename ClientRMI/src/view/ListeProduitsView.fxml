@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+
+<AnchorPane fx:id="anchorpane" prefHeight="479.0" prefWidth="854.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ListeProduitsController">
+   <children>
+      <BorderPane prefHeight="479.0" prefWidth="867.0" style="-fx-background-color: white;">
+         <center>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="439.0" prefWidth="639.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TableView fx:id="TableProduit" layoutX="23.0" layoutY="75.0" prefHeight="290.0" prefWidth="661.0">
+                     <columns>
+                        <TableColumn fx:id="idColumn" prefWidth="35.0" style="-fx-alignment: center;" text="Id" />
+                        <TableColumn fx:id="nomColumn" minWidth="2.0" prefWidth="128.0" style="-fx-alignment: center;" text="Nom" />
+                        <TableColumn fx:id="categorieColumn" prefWidth="104.0" style="-fx-alignment: center;" text="Catégorie" />
+                        <TableColumn fx:id="quantiteColumn" prefWidth="99.0" style="-fx-alignment: center;" text="Quantité" />
+                        <TableColumn fx:id="prixColumn" prefWidth="109.0" style="-fx-alignment: center;" text="Prix" />
+                        <TableColumn fx:id="editColumn" maxWidth="164.0" minWidth="0.0" prefWidth="164.0" style="-fx-alignment: center;" text="Actions">
+                           <graphic>
+                              <Group>
+                                 <children>
+                                    <SVGPath content="M402.6 83.2l90.2 90.2c3.8 3.8 3.8 10 0 13.8L274.4 405.6l-92.8 10.3c-12.4 1.4-22.9-9.1-21.5-21.5l10.3-92.8L388.8 83.2c3.8-3.8 10-3.8 13.8 0zm162-22.9l-48.8-48.8c-15.2-15.2-39.9-15.2-55.2 0l-35.4 35.4c-3.8 3.8-3.8 10 0 13.8l90.2 90.2c3.8 3.8 10 3.8 13.8 0l35.4-35.4c15.2-15.3 15.2-40 0-55.2zM384 346.2V448H64V128h229.8c3.2 0 6.2-1.3 8.5-3.5l40-40c7.6-7.6 2.2-20.5-8.5-20.5H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V306.2c0-10.7-12.9-16-20.5-8.5l-40 40c-2.2 2.3-3.5 5.3-3.5 8.5z" scaleX="0.03" scaleY="0.03" style="-fx-fill: black;" />
+                                 </children>
+                              </Group>
+                           </graphic></TableColumn>
+                     </columns>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="-1.0" left="-1.0" right="-1.0" top="-1.0" />
+                     </padding>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+                  <HBox alignment="CENTER_LEFT" prefHeight="48.0" prefWidth="555.0">
+                     <children>
+                        <Label prefHeight="18.0" prefWidth="150.0" text="Recherche par catégorie :" />
+                        <ComboBox fx:id="coboSearchProduit" onAction="#comboChanged" prefWidth="150.0" promptText="--- catégorie ---" style="-fx-background-color: white; -fx-border-color: black;">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></ComboBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </center>
+         <left>
+            <VBox alignment="TOP_CENTER" prefHeight="439.0" prefWidth="174.0" spacing="10.0" style="-fx-background-color: #f8f9fa;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@user.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="username" alignment="CENTER" contentDisplay="CENTER" style="-fx-font-weight: bold;" text="Nom d'untisateur">
+                     <padding>
+                        <Insets bottom="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Separator prefWidth="200.0" />
+                  <Button alignment="CENTER" mnemonicParsing="false" onMouseClicked="#getAddView" prefHeight="25.0" prefWidth="99.0" style="-fx-background-color: #0d6efd; -fx-border-radius: 10px; -fx-font-weight: bold;" text="Ajouter" textFill="WHITE">
+                     <graphic>
+                        <SVGPath content="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" mouseTransparent="true" style="-fx-fill: white;">
+                           <rotationAxis>
+                              <Point3D />
+                           </rotationAxis>
+                        </SVGPath>
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button mnemonicParsing="false" onMouseClicked="#refreshTable" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #6c757d; -fx-font-weight: bold; -fx-border-radius: 10px;" text="Actualiser" textAlignment="CENTER" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </VBox>
+         </left>
+         <top>
+            <ToolBar prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #212529;" BorderPane.alignment="CENTER">
+              <items>
+                <Button mnemonicParsing="false" onAction="#close" prefHeight="26.0" prefWidth="125.0" style="-fx-background-color: #212529; -fx-font-weight: bold;" text="Déconnexion" textFill="WHITE">
+                     <graphic>
+                        <SVGPath content="M17 7l-1.41-1.41L14.17 8H7v2h7.17l-1.58 1.59L17 13l4-4-4-4zm-2 9H5V4h10V2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h10v-2z" mouseTransparent="true" style="-fx-fill: white;" />
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <TextField fx:id="textField" prefHeight="25.0" prefWidth="179.0" promptText="Rechercher par nom" />
+                  <Button mnemonicParsing="false" onMouseClicked="#refreshTable" style="-fx-border-color: white; -fx-background-color: #212529; -fx-border-radius: 5px;" textFill="WHITE">
+                     <graphic>
+                        <SVGPath content="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" fill="WHITE" mouseTransparent="true" style="-fx-fill: white;" />
+                     </graphic>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+              </items>
+            </ToolBar>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

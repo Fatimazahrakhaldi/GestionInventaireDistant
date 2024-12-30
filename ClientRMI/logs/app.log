@@ -1,0 +1,52 @@
+2024-12-28 09:20:44,781 [main] INFO : Successfully connected to RMI stubs.
+2024-12-28 09:21:09,684 [main] INFO : Successfully connected to RMI stubs.
+2024-12-28 14:34:16,247 [main] INFO : Successfully connected to RMI stubs.
+2024-12-28 14:36:09,956 [main] INFO : Successfully connected to RMI stubs.
+2024-12-28 14:39:38,352 [main] INFO : Successfully connected to RMI stubs.
+2024-12-28 14:40:25,784 [main] INFO : Successfully connected to RMI stubs.
+2024-12-28 14:52:45,836 [main] INFO : Successfully connected to RMI stubs.
+2024-12-28 15:00:06,225 [main] INFO : Successfully connected to RMI stubs.
+2024-12-28 15:04:05,016 [main] ERROR: RemoteException while connecting to RMI: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+2024-12-28 15:04:36,433 [main] ERROR: RemoteException while connecting to RMI: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+2024-12-28 15:05:03,557 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 09:52:25,602 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 09:55:20,972 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 09:56:28,658 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 09:59:17,584 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 10:02:22,253 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 10:03:22,437 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 10:13:01,246 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 10:25:36,470 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 10:27:17,480 [main] ERROR: RemoteException while connecting to RMI: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+2024-12-29 10:27:39,600 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 10:30:13,132 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 10:31:16,872 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 10:31:49,567 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 10:39:26,778 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 10:40:33,602 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 14:32:40,556 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 14:51:23,457 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 14:58:49,848 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 15:02:16,136 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 16:44:18,323 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 16:48:28,709 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 16:57:50,062 [main] INFO : Successfully connected to RMI stubs.
+2024-12-29 18:06:35,683 [main] INFO : Successfully connected to RMI stubs.
+2024-12-30 09:12:29,727 [main] INFO : Successfully connected to RMI stubs.
+2024-12-30 11:24:28,163 [main] ERROR: RemoteException while connecting to RMI: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+2024-12-30 11:35:31,945 [main] INFO : Successfully connected to RMI stubs.
+2024-12-30 11:58:06,340 [main] INFO : Successfully connected to RMI stubs.
+2024-12-30 13:16:40,326 [main] INFO : Connexion réussie aux stubs RMI.
+2024-12-30 13:23:16,360 [main] INFO : Connexion réussie aux stubs RMI.
+2024-12-30 14:27:08,947 [main] INFO : Connexion réussie aux stubs RMI.
+2024-12-30 16:20:26,131 [main] INFO : Connexion réussie aux stubs RMI.
+2024-12-30 19:34:14,727 [main] INFO : Connexion réussie aux stubs RMI.
+2024-12-30 19:35:37,279 [main] INFO : Connexion réussie aux stubs RMI.
+2024-12-30 19:36:02,299 [main] INFO : Connexion réussie aux stubs RMI.
+2024-12-30 19:54:34,125 [main] INFO : Successfully connected to RMI stubs.
+2024-12-30 20:02:30,656 [main] INFO : Successfully connected to RMI stubs.
+2024-12-30 20:03:02,245 [main] INFO : Successfully connected to RMI stubs.
